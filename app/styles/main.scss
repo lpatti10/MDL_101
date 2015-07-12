@@ -1,23 +1,61 @@
-
-// Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-}
-
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+  //global styles
+  .mdl-card {
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
-}
+
+  //Card wide
+  .demo-card-wide.mdl-card {
+    width: 512px;
+  }
+
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../images/welcome_card.jpg') center / cover;
+  }
+
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+
+  //Card square
+  .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+  }
+
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: url('../images/dog.png') bottom right 15% no-repeat #46B6AC;
+  }
+
+  .demo-card-image.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: url('../images/image_card.jpg') center / cover;
+  }
+
+  .demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  //Event card
+  .demo-card-image__filename {
+    color: #fff;
+  }
+
+  .demo-card-event.mdl-card {
+    width: 256px;
+    height: 256px;
+    background: #3E4EB8;
+  }
+  .demo-card-event > .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .demo-card-event > .mdl-card__title,
+  .demo-card-event > .mdl-card__actions > .mdl-button {
+    color: #fff;
+  }
