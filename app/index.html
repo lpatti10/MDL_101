@@ -12,31 +12,41 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+
+
   </head>
   <body>
 
     <div class="hero-unit">
-      <h1>'Sup</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML Template</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
+      <h1>Google Material Design Lite</h1>
 
-
-      </ul>
-      <p>Don't forget to update your readme file.</p>
+      <!-- Accent-colored raised button with ripple -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+        Button
+      </button>
+      <!-- Colored FAB button -->
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+        <i class="material-icons">add</i>
+      </button>
+    
     </div>
+
+
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="../bower_components/material-design-lite/material.min.js"></script>
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
